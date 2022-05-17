@@ -43,7 +43,13 @@ const clock = setTimeout(
     , 5000);
 
 // alla fine della partita il software dirà quanti e quali numeri sono stati indovinati
+let partitaGiocatore;
 
+if(partitaGiocatore === numeriGioco) {
+    risultato = "Hai indovinato";
+} else {
+    risultato = "Sbagliato! Hai perso";
+}
 
 
 
